@@ -1,6 +1,6 @@
 
 
-export load function mainLoad() {
+export function mainLoad() {
 
     const text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque odio quibusdam pariatur id voluptates, molestiae libero aut delectus excepturi, perspiciatis incidunt illum voluptatum accusantium exercitationem quisquam numquam, totam animi? Ut.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque odio quibusdam pariatur id voluptates, molestiae libero aut delectus excepturi, perspiciatis incidunt illum voluptatum accusantium exercitationem quisquam numquam, totam animi? Ut.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque odio quibusdam pariatur id voluptates, molestiae libero aut delectus excepturi, perspiciatis incidunt illum voluptatum accusantium exercitationem quisquam numquam, totam animi? Ut."
 
@@ -41,4 +41,4 @@ export load function mainLoad() {
     const margin2 = document.createElement("div");
         margin2.setAttribute("id","margin2");
     content.appendChild(margin2);
-}
+};
