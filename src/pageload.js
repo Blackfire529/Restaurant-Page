@@ -1,4 +1,4 @@
-
+import bannerPic from "././imgs/banner.jpg";
 
 export function mainLoad() {
 
@@ -13,7 +13,7 @@ export function mainLoad() {
     content.appendChild(banner);
 
     const bannerImg = document.createElement("img");
-        bannerImg.setAttribute("src", "src\imgs\banner.jpg");
+        bannerImg.src = bannerPic;
         bannerImg.setAttribute("alt", "Bammmmmnner Logo :)")
     banner.appendChild(bannerImg);
 
